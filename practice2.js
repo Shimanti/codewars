@@ -204,10 +204,10 @@
 // Note! The input is a Real number (actual type is language dependent)
 // and is >= 0. The result should be an Integer.
 
-function cockroachSpeed(s) {
+// function cockroachSpeed(s) {
   // Conversion factor: km/h * 1h/60min * 1min/60s * 1000m/1km * 100cm/1m
-  const conversion = 1/60 * 1/60 * 1000/1 * 100/1
-  return Math.floor(s * conversion)
+//  const conversion = 1/60 * 1/60 * 1000/1 * 100/1
+//  return Math.floor(s * conversion)
 }
 
-console.log(cockroachSpeed(0))
+// console.log(cockroachSpeed(0))
