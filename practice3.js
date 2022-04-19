@@ -40,3 +40,6 @@ console.log(maps([1, 2, 3]))
 // }
 //
 // console.log(deleteNth([1,1,3,3,7,2,2,2,2], 3)) // [1, 1, 3, 3, 7, 2, 2, 2])
+
+// Sum Numbers
+// const sum = arr => arr.reduce((a,b) => a + b, 0)
