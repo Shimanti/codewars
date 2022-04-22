@@ -41,5 +41,8 @@ console.log(maps([1, 2, 3]))
 //
 // console.log(deleteNth([1,1,3,3,7,2,2,2,2], 3)) // [1, 1, 3, 3, 7, 2, 2, 2])
 
-// Sum Numbers
+// Sum Numbers in an array
 // const sum = arr => arr.reduce((a,b) => a + b, 0)
+
+// Summation upto a number 
+// const summation = n => n * (n + 1) / 2;
