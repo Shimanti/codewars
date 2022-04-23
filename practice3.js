@@ -48,14 +48,37 @@ console.log(maps([1, 2, 3]))
 // const summation = n => n * (n + 1) / 2;
 
 // Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
-
 // Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
 
 // Example:
-
 // n= 5, m=5: 25
 // n-5, m=5:  0
 
 // function paperwork(n, m) {
 // return (n < 0 || m  < 0) ? 0 : m * n
 //}
+
+// Rock Paper Scissors
+// Let's play! You have to return which player won! In case of a draw return Draw!.
+
+// Examples:
+// rps('scissors','paper') // Player 1 won!
+// rps('scissors','rock') // Player 2 won!
+// rps('paper','paper') // Draw!
+
+const rps = (p1, p2) => {
+  if (p1 === p2) {
+     return "Draw!"
+  } else if (p1==="scissors" && p2 ==="paper") {
+    return "Player 1 won!"
+  } else if (p1 === "rock" && p2 === "scissors") {
+    return "Player 1 won!"
+  } else if (p1 === "paper" && p2 === "rock") {
+    return "Player 1 won!"
+  } else {
+    return "Player 2 won!"
+  }
+   
+};
+
+
