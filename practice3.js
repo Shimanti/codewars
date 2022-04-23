@@ -132,3 +132,14 @@ function duplicateCount(text){
 //    return arr.indexOf(val) !== i && arr.lastIndexOf(val) === i;
 //  }).length;
 // }
+
+// function duplicateCount(text){
+//   return text
+//    .toLowerCase()
+//    .split('')
+//    .reduce(function(a, l) {
+//       a[l] = a[l] ? a[l]+1 : 1;
+//       if(a[l] === 2) a.count++;
+//        return a;
+//     }, {count:0}).count;
+// }
