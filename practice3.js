@@ -143,3 +143,7 @@ function duplicateCount(text){
 //        return a;
 //     }, {count:0}).count;
 // }
+
+// function duplicateCount(text){
+//  return new Set(text.toLowerCase().match(/(.)(?=.*\1)/gi)).size
+// }
